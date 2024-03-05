@@ -1,0 +1,168 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.boton {
+    height: 50%;
+    width: 120px;
+    background-color: rgb(11, 27, 74);
+    color: white;
+    border-radius: 10%;
+
+
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.359);
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.yellow_line {
+    display: flex;
+    background-color: rgb(255, 219, 59);
+    align-items: center;
+}
+
+.container_service {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.cards {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    margin: 1%;
+    margin-top: 10%; 
+    width: 15%;
+}
+
+.menu{
+list-style: none;
+display: flex;
+gap: 40px;
+}
+
+.service{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+
+}
+
+hr{
+    border: 3px solid coral;
+    border-radius: 3px;
+    width: 3%;
+}
+.hr_cards{
+    border: 3px solid coral;
+    border-radius: 3px;
+    width: 50%;
+    
+
+}
+
+.blue_line{
+    display: flex;
+    background-color: rgb(13, 47, 65);
+    align-items: center;
+    padding: 40px;
+}
+
+.testimonios{
+    flex: 1; 
+    padding-top: 5% ;
+    color:rgb(13, 47, 65); 
+    font-size: 45px;
+}
+
+.comentarios{
+    display: flex;
+    background-color:white;
+    align-items: center;
+
+}
+.contenedor_comentarios{
+    background-color: rgb(237, 237, 237);
+    font-weight: 300;
+    margin: 60px;
+   padding: 20px;
+
+}
+.pie{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+.pie1{
+    background-color: rgb(245, 245, 232);
+}
+
+.cards_two{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom:5%;
+}
+
+.imagen{
+    margin-top: 10%; 
+    width: 20%;
+
+}
+
+.texto_llamada{
+    text-align: left;
+}
+
+.llamada{
+    background-color: rgb(29, 27, 25);
+    padding: 10%;
+    color: white;
+}
+
+input{
+    margin: 5%;
+    font-size: 25px;
+    border-radius: 5%;
+}
+
+.enviar{
+    background-color: rgb(13, 47, 65);
+    color: white;
+}
+
+.footer{
+    display: flex;
+    background-color: rgb(13, 47, 65);
+    align-items: center;
+    padding: 40px;
+}
+.cajas_llamada{
+    background-color:rgb(173, 170, 168);
+    border-radius: 20px;
+
+}
+
+@media(max-width:992px){
+    .nav{width: 100%;}
+}
